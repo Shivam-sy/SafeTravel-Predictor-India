@@ -19,8 +19,8 @@ ROAD_CSV = os.path.join(DATA_DIR, "Road.csv")
 ROAD_ACCIDENT_1_CSV = os.path.join(DATA_DIR, "Road_accident_1.csv")
 ROAD_ACCIDENT_2_CSV = os.path.join(DATA_DIR, "Road_accident_2.csv")
 
-OPENWEATHER_API_KEY = "200577e014c1c4c3d23e9474ed18dc2c"
-NEWS_API_KEY = "877120369205426b83dacb6a4e2f1e3c"
+OPENWEATHER_API_KEY = "Enter Your API_KEY here"
+NEWS_API_KEY = "Enter Your API_KEY here"
 USE_REAL_APIS = True
 
 WEIGHTS = {
@@ -372,3 +372,4 @@ if __name__ == "__main__":
         pretty_print_result(area_ex, out)
     else:
         print("Could not find location. Please try again.")
+
